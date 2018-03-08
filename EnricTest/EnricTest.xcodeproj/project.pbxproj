@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0317F52317BEB2961F3AC009 /* Pods_EnricTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12B7D3701BEB50864D4042 /* Pods_EnricTestTests.framework */; };
+		72E81320F1B9A83505A93005 /* Pods_EnricTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0CD6229E5FDEF506319E7C /* Pods_EnricTest.framework */; };
+		79E40EF0204FA83900720B0D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 79E40EEF204FA83900720B0D /* Podfile */; };
+		79E40EF2204FB8CC00720B0D /* DefaultClearScoreServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4736F335079B5F0068F04 /* DefaultClearScoreServiceTests.swift */; };
+		79E40EF4204FC85100720B0D /* ClearScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E40EF3204FC85100720B0D /* ClearScoreView.swift */; };
+		79E40EF920506EEE00720B0D /* TestAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E40EF820506EEE00720B0D /* TestAppDelegate.swift */; };
+		C9F47028B5342E2A6F95CBE0 /* DefaultClearScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4726A2E7396E75EDC0B02 /* DefaultClearScoreService.swift */; };
+		C9F47160021AC36ABD978E57 /* DefaultAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47DE5DE65A9EFD08D67B3 /* DefaultAppConfiguration.swift */; };
+		C9F471812094EE4ED8A2A33B /* MockDashboardWireframeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47002F3C9FE45DFAE5A0F /* MockDashboardWireframeFactory.swift */; };
+		C9F472129BA14DED7127D108 /* DefaultAppConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4749400DAD1F17B3845F1 /* DefaultAppConfigurationTests.swift */; };
+		C9F47220DCA0EE7050770150 /* DashboardWireframeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4767B0AD8C5148573FF37 /* DashboardWireframeFactory.swift */; };
+		C9F472368C6C3A80B646CDF6 /* DashboardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4748FBC168DB1B35566EA /* DashboardViewModelTests.swift */; };
+		C9F4724BAA49B053B9A42A6D /* DefaultReportInfoModelToDashboardViewModelAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F475F6F293F67F00948CEA /* DefaultReportInfoModelToDashboardViewModelAdapterTests.swift */; };
+		C9F47293A378D4DB030427CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F476B1C541399E23E736E2 /* Assets.xcassets */; };
+		C9F472F805BB2FE540FE5CB9 /* DefaultDashboardWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4723231878C6B92384092 /* DefaultDashboardWireframeTests.swift */; };
+		C9F4730050AB88C4A1612F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47BCD70ADB048CE5B4EC9 /* AppDelegate.swift */; };
+		C9F473A705F76476096A4DA6 /* MockAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F475EF4D79FBF78667B907 /* MockAppConfiguration.swift */; };
+		C9F474A158EDD50D56990B5B /* MockReportInfoModelToDashboardViewModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47A7B1C5682D0A717658B /* MockReportInfoModelToDashboardViewModelAdapter.swift */; };
+		C9F474AEBD59B24A1D20A3ED /* TestAppObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47AA35462BBCFEB622421 /* TestAppObserver.swift */; };
+		C9F475C0B05046C54303E4C3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47C49FD05623BD333895D /* DashboardView.swift */; };
+		C9F475CCE926D0C21E40928D /* MockDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47112ED0BA41B72AD57B4 /* MockDashboardView.swift */; };
+		C9F47618A51BB5A89D17FF2A /* DefaultDashboardWireframeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47014248A5FB6C8D7C1EE /* DefaultDashboardWireframeFactory.swift */; };
+		C9F4763D5155830FC869A7F2 /* ReportInfoModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47257BB3045CD35D8680C /* ReportInfoModelTests.swift */; };
+		C9F4766F99ACE368A7D1C75F /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47218699A8FC7D2A26698 /* AppConfiguration.swift */; };
+		C9F476A28E6A3F0F583A0D16 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F478C67324971CC2489A40 /* Strings.swift */; };
+		C9F476E18FE481AF3743338C /* MockClearScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47F7DAC11CBB013F47EF1 /* MockClearScoreService.swift */; };
+		C9F476E5E4108CA48FE10D3A /* ClearScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F474AD664304E256DAA160 /* ClearScoreService.swift */; };
+		C9F477373ADF2FF920AE6B67 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F474AC66521F683EC63C04 /* Result.swift */; };
+		C9F4778E58F2E3BE94F48303 /* ReportInfoModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4746AA4266953FB0B75BB /* ReportInfoModelBuilder.swift */; };
+		C9F477FF6787D57039EF0ABF /* DefaultDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47B8930AC1F5972FE6646 /* DefaultDashboardPresenter.swift */; };
+		C9F4782DA560F56AB8AE0FDB /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47F35712E20CEB58F329F /* DashboardPresenter.swift */; };
+		C9F4784C40FBDF390F28D8F7 /* DashboardBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F472EFDDB4B7B389F69262 /* DashboardBuilders.swift */; };
+		C9F479D51D4B25E40582BC91 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4709D9DD7B0D6F2695F84 /* DashboardViewController.swift */; };
+		C9F47A079F34CF4DC073EFCD /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F477B7D0C08D9856862A70 /* DashboardViewModel.swift */; };
+		C9F47A3D642C62B26D8F37FA /* TestAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47581D6675552B718F429 /* TestAppConfiguration.swift */; };
+		C9F47A796BF97D4050B254CE /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F477C04051AF499A265226 /* AppDelegateTests.swift */; };
+		C9F47A939C14A8EC662311EA /* MockDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F478BD87ACFB0DE2609176 /* MockDashboardPresenter.swift */; };
+		C9F47AD700C17A4B2E41156C /* DefaultDashboardWireframeFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47A61F45FD3AB9E722CAF /* DefaultDashboardWireframeFactoryTests.swift */; };
+		C9F47AF248EA5DBEAB48AA14 /* ServiceDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4750343DF9988BB2C782D /* ServiceDirectory.swift */; };
+		C9F47B0C37E98A049A5F118E /* DashboardViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F479281EEFB04DA088BF64 /* DashboardViewControllerTests.swift */; };
+		C9F47B989918E6482ED7984E /* MockClearScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47EB9D896FBA0B608B85B /* MockClearScoreView.swift */; };
+		C9F47BADD6B5F79BF27CFE8B /* ClearScoreViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47EA16E397D1C7B8E9CC1 /* ClearScoreViewTests.swift */; };
+		C9F47BDCC6A3787AA7174849 /* DefaultDashboardPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4758EBA346233BE6CAAD8 /* DefaultDashboardPresenterTests.swift */; };
+		C9F47C2CAB3C5731ABA21241 /* DefaultDashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F473000B823DDFBAB1BDBD /* DefaultDashboardWireframe.swift */; };
+		C9F47C3BD7895B7DDF910469 /* ReportInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4783F5E01701F92A14CD8 /* ReportInfoModel.swift */; };
+		C9F47CEE752239D04BABED7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F47C1DA458780A7D85CF79 /* Main.storyboard */; };
+		C9F47CF88B443634B645D13D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47E7CBD70AE57D57A2CD8 /* main.swift */; };
+		C9F47D51264BAAD5DC1DD7AE /* DashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F472CB9BD6EEE5F04379C5 /* DashboardWireframe.swift */; };
+		C9F47DD3A1C1A2E1DA391C34 /* ReportInfoModelToDashboardViewModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47BAEE76F3FF0D5BD6C6A /* ReportInfoModelToDashboardViewModelAdapter.swift */; };
+		C9F47DF31A862FBE0A221796 /* MockDashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F479DE6F394C2FB211023F /* MockDashboardWireframe.swift */; };
+		C9F47E01D16C13D27B5BAB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F47BA6E24394C6BB536CB2 /* LaunchScreen.storyboard */; };
+		C9F47E3C25756023E7AE17D8 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47CDC7204FE4765B7E81A /* StringsTests.swift */; };
+		C9F47F908F3044A900C63BF3 /* DefaultReportInfoModelToDashboardViewModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F47E3BA8666C8D83256F51 /* DefaultReportInfoModelToDashboardViewModelAdapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9F4773BCBD19F88390A533B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9F470D73545ADE100E97957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F470BE07907EC5E12CD301;
+			remoteInfo = EnricTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB41E78F03A031434251FC1 /* Pods-EnricTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnricTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnricTestTests/Pods-EnricTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		428C0FDA19BCB9C7ED82AE01 /* Pods-EnricTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnricTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnricTest/Pods-EnricTest.debug.xcconfig"; sourceTree = "<group>"; };
+		79E40EEF204FA83900720B0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		79E40EF3204FC85100720B0D /* ClearScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScoreView.swift; sourceTree = "<group>"; };
+		79E40EF820506EEE00720B0D /* TestAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelegate.swift; sourceTree = "<group>"; };
+		8B0CD6229E5FDEF506319E7C /* Pods_EnricTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnricTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F47002F3C9FE45DFAE5A0F /* MockDashboardWireframeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDashboardWireframeFactory.swift; sourceTree = "<group>"; };
+		C9F47014248A5FB6C8D7C1EE /* DefaultDashboardWireframeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardWireframeFactory.swift; sourceTree = "<group>"; };
+		C9F4709D9DD7B0D6F2695F84 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C9F4709F39CEA2EBEFE3873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F47112ED0BA41B72AD57B4 /* MockDashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDashboardView.swift; sourceTree = "<group>"; };
+		C9F47139AB8EFA5F8C4BCC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9F4715EE30145A77A711D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F47218699A8FC7D2A26698 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		C9F4723231878C6B92384092 /* DefaultDashboardWireframeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardWireframeTests.swift; sourceTree = "<group>"; };
+		C9F47257BB3045CD35D8680C /* ReportInfoModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportInfoModelTests.swift; sourceTree = "<group>"; };
+		C9F4726A2E7396E75EDC0B02 /* DefaultClearScoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultClearScoreService.swift; sourceTree = "<group>"; };
+		C9F472CB9BD6EEE5F04379C5 /* DashboardWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardWireframe.swift; sourceTree = "<group>"; };
+		C9F472EFDDB4B7B389F69262 /* DashboardBuilders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardBuilders.swift; sourceTree = "<group>"; };
+		C9F473000B823DDFBAB1BDBD /* DefaultDashboardWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardWireframe.swift; sourceTree = "<group>"; };
+		C9F4736F335079B5F0068F04 /* DefaultClearScoreServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultClearScoreServiceTests.swift; sourceTree = "<group>"; };
+		C9F47372A49CF22094C0030D /* EnricTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnricTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F4746AA4266953FB0B75BB /* ReportInfoModelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportInfoModelBuilder.swift; sourceTree = "<group>"; };
+		C9F4748FBC168DB1B35566EA /* DashboardViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModelTests.swift; sourceTree = "<group>"; };
+		C9F4749400DAD1F17B3845F1 /* DefaultAppConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAppConfigurationTests.swift; sourceTree = "<group>"; };
+		C9F474AC66521F683EC63C04 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C9F474AD664304E256DAA160 /* ClearScoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearScoreService.swift; sourceTree = "<group>"; };
+		C9F4750343DF9988BB2C782D /* ServiceDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDirectory.swift; sourceTree = "<group>"; };
+		C9F47581D6675552B718F429 /* TestAppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAppConfiguration.swift; sourceTree = "<group>"; };
+		C9F4758EBA346233BE6CAAD8 /* DefaultDashboardPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardPresenterTests.swift; sourceTree = "<group>"; };
+		C9F475EF4D79FBF78667B907 /* MockAppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAppConfiguration.swift; sourceTree = "<group>"; };
+		C9F475F6F293F67F00948CEA /* DefaultReportInfoModelToDashboardViewModelAdapterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultReportInfoModelToDashboardViewModelAdapterTests.swift; sourceTree = "<group>"; };
+		C9F4767B0AD8C5148573FF37 /* DashboardWireframeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardWireframeFactory.swift; sourceTree = "<group>"; };
+		C9F476B1C541399E23E736E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9F47716F729C74C142C866F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9F477B7D0C08D9856862A70 /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		C9F477C04051AF499A265226 /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
+		C9F4783F5E01701F92A14CD8 /* ReportInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportInfoModel.swift; sourceTree = "<group>"; };
+		C9F4786B0B57643CA8515A3A /* EnricTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnricTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F478BD87ACFB0DE2609176 /* MockDashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDashboardPresenter.swift; sourceTree = "<group>"; };
+		C9F478C67324971CC2489A40 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		C9F479281EEFB04DA088BF64 /* DashboardViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewControllerTests.swift; sourceTree = "<group>"; };
+		C9F479DE6F394C2FB211023F /* MockDashboardWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDashboardWireframe.swift; sourceTree = "<group>"; };
+		C9F47A61F45FD3AB9E722CAF /* DefaultDashboardWireframeFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardWireframeFactoryTests.swift; sourceTree = "<group>"; };
+		C9F47A7B1C5682D0A717658B /* MockReportInfoModelToDashboardViewModelAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReportInfoModelToDashboardViewModelAdapter.swift; sourceTree = "<group>"; };
+		C9F47AA35462BBCFEB622421 /* TestAppObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAppObserver.swift; sourceTree = "<group>"; };
+		C9F47B8930AC1F5972FE6646 /* DefaultDashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDashboardPresenter.swift; sourceTree = "<group>"; };
+		C9F47BAEE76F3FF0D5BD6C6A /* ReportInfoModelToDashboardViewModelAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportInfoModelToDashboardViewModelAdapter.swift; sourceTree = "<group>"; };
+		C9F47BCD70ADB048CE5B4EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9F47C49FD05623BD333895D /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C9F47CDC7204FE4765B7E81A /* StringsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		C9F47DE5DE65A9EFD08D67B3 /* DefaultAppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAppConfiguration.swift; sourceTree = "<group>"; };
+		C9F47E3BA8666C8D83256F51 /* DefaultReportInfoModelToDashboardViewModelAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultReportInfoModelToDashboardViewModelAdapter.swift; sourceTree = "<group>"; };
+		C9F47E7CBD70AE57D57A2CD8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C9F47EA16E397D1C7B8E9CC1 /* ClearScoreViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearScoreViewTests.swift; sourceTree = "<group>"; };
+		C9F47EB9D896FBA0B608B85B /* MockClearScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockClearScoreView.swift; sourceTree = "<group>"; };
+		C9F47F35712E20CEB58F329F /* DashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		C9F47F7DAC11CBB013F47EF1 /* MockClearScoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockClearScoreService.swift; sourceTree = "<group>"; };
+		D294CCE7FEF69C3D94D3E7AD /* Pods-EnricTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnricTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnricTestTests/Pods-EnricTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA12B7D3701BEB50864D4042 /* Pods_EnricTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnricTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA4B4E627ED09C8324AE352 /* Pods-EnricTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnricTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnricTest/Pods-EnricTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F474EB22F4D2AE1F9C42B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E81320F1B9A83505A93005 /* Pods_EnricTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F4767271617A2CF7CE91B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0317F52317BEB2961F3AC009 /* Pods_EnricTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5CF423A0E39E945D94CAB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				428C0FDA19BCB9C7ED82AE01 /* Pods-EnricTest.debug.xcconfig */,
+				FCA4B4E627ED09C8324AE352 /* Pods-EnricTest.release.xcconfig */,
+				1DB41E78F03A031434251FC1 /* Pods-EnricTestTests.debug.xcconfig */,
+				D294CCE7FEF69C3D94D3E7AD /* Pods-EnricTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7959C0B32050778800B1DD6D /* DashboardModule */ = {
+			isa = PBXGroup;
+			children = (
+				7959C0B6205077A200B1DD6D /* UnitTests */,
+				7959C0B52050779C00B1DD6D /* Builders */,
+				7959C0B42050779600B1DD6D /* Mocks */,
+			);
+			path = DashboardModule;
+			sourceTree = "<group>";
+		};
+		7959C0B42050779600B1DD6D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47002F3C9FE45DFAE5A0F /* MockDashboardWireframeFactory.swift */,
+				C9F479DE6F394C2FB211023F /* MockDashboardWireframe.swift */,
+				C9F47112ED0BA41B72AD57B4 /* MockDashboardView.swift */,
+				C9F478BD87ACFB0DE2609176 /* MockDashboardPresenter.swift */,
+				C9F47A7B1C5682D0A717658B /* MockReportInfoModelToDashboardViewModelAdapter.swift */,
+				C9F47EB9D896FBA0B608B85B /* MockClearScoreView.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		7959C0B52050779C00B1DD6D /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				C9F472EFDDB4B7B389F69262 /* DashboardBuilders.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		7959C0B6205077A200B1DD6D /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4748FBC168DB1B35566EA /* DashboardViewModelTests.swift */,
+				C9F475F6F293F67F00948CEA /* DefaultReportInfoModelToDashboardViewModelAdapterTests.swift */,
+				C9F47A61F45FD3AB9E722CAF /* DefaultDashboardWireframeFactoryTests.swift */,
+				C9F4758EBA346233BE6CAAD8 /* DefaultDashboardPresenterTests.swift */,
+				C9F4723231878C6B92384092 /* DefaultDashboardWireframeTests.swift */,
+				C9F479281EEFB04DA088BF64 /* DashboardViewControllerTests.swift */,
+				C9F47EA16E397D1C7B8E9CC1 /* ClearScoreViewTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		79E40EE6204FA08800720B0D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9F476B1C541399E23E736E2 /* Assets.xcassets */,
+				C9F4715EE30145A77A711D71 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		79E40EE7204FA0CF00720B0D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4709F39CEA2EBEFE3873E /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		79E40EE8204FA0E000720B0D /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47BA6E24394C6BB536CB2 /* LaunchScreen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		79E40EE9204FA0F700720B0D /* DashboardModule */ = {
+			isa = PBXGroup;
+			children = (
+				79E40EF5205066D400720B0D /* Private */,
+				C9F472CB9BD6EEE5F04379C5 /* DashboardWireframe.swift */,
+				C9F4767B0AD8C5148573FF37 /* DashboardWireframeFactory.swift */,
+				C9F47F35712E20CEB58F329F /* DashboardPresenter.swift */,
+				C9F47C49FD05623BD333895D /* DashboardView.swift */,
+				C9F477B7D0C08D9856862A70 /* DashboardViewModel.swift */,
+				C9F47BAEE76F3FF0D5BD6C6A /* ReportInfoModelToDashboardViewModelAdapter.swift */,
+			);
+			path = DashboardModule;
+			sourceTree = "<group>";
+		};
+		79E40EEA204FA1A700720B0D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4750343DF9988BB2C782D /* ServiceDirectory.swift */,
+				C9F47218699A8FC7D2A26698 /* AppConfiguration.swift */,
+				C9F474AC66521F683EC63C04 /* Result.swift */,
+				79E40EED204FA72300720B0D /* Private */,
+				C9F478C67324971CC2489A40 /* Strings.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79E40EEB204FA49700720B0D /* ClearScoreService */ = {
+			isa = PBXGroup;
+			children = (
+				C9F474AD664304E256DAA160 /* ClearScoreService.swift */,
+				C9F4783F5E01701F92A14CD8 /* ReportInfoModel.swift */,
+				79E40EEE204FA78800720B0D /* Private */,
+			);
+			path = ClearScoreService;
+			sourceTree = "<group>";
+		};
+		79E40EED204FA72300720B0D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47DE5DE65A9EFD08D67B3 /* DefaultAppConfiguration.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		79E40EEE204FA78800720B0D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4726A2E7396E75EDC0B02 /* DefaultClearScoreService.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		79E40EF5205066D400720B0D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47014248A5FB6C8D7C1EE /* DefaultDashboardWireframeFactory.swift */,
+				C9F473000B823DDFBAB1BDBD /* DefaultDashboardWireframe.swift */,
+				79E40EF3204FC85100720B0D /* ClearScoreView.swift */,
+				C9F47E3BA8666C8D83256F51 /* DefaultReportInfoModelToDashboardViewModelAdapter.swift */,
+				C9F4709D9DD7B0D6F2695F84 /* DashboardViewController.swift */,
+				C9F47C1DA458780A7D85CF79 /* Main.storyboard */,
+				C9F47B8930AC1F5972FE6646 /* DefaultDashboardPresenter.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		79E40EF620506A2600720B0D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79E40EFF2050709100720B0D /* UnitTests */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79E40EF720506A3800720B0D /* ClearScoreService */ = {
+			isa = PBXGroup;
+			children = (
+				79E40EFB2050706E00720B0D /* IntegrationTests */,
+				79E40EFC2050707700720B0D /* Builders */,
+				79E40EFD2050707E00720B0D /* UnitTests */,
+				79E40EFE2050708600720B0D /* Mocks */,
+			);
+			path = ClearScoreService;
+			sourceTree = "<group>";
+		};
+		79E40EFA20506EF400720B0D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79E40EF820506EEE00720B0D /* TestAppDelegate.swift */,
+				C9F47AA35462BBCFEB622421 /* TestAppObserver.swift */,
+				C9F47581D6675552B718F429 /* TestAppConfiguration.swift */,
+				C9F475EF4D79FBF78667B907 /* MockAppConfiguration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		79E40EFB2050706E00720B0D /* IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4736F335079B5F0068F04 /* DefaultClearScoreServiceTests.swift */,
+			);
+			path = IntegrationTests;
+			sourceTree = "<group>";
+		};
+		79E40EFC2050707700720B0D /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4746AA4266953FB0B75BB /* ReportInfoModelBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		79E40EFD2050707E00720B0D /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47257BB3045CD35D8680C /* ReportInfoModelTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		79E40EFE2050708600720B0D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47F7DAC11CBB013F47EF1 /* MockClearScoreService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		79E40EFF2050709100720B0D /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47CDC7204FE4765B7E81A /* StringsTests.swift */,
+				C9F4749400DAD1F17B3845F1 /* DefaultAppConfigurationTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		C9F4743833DA1E8995A31B19 = {
+			isa = PBXGroup;
+			children = (
+				79E40EEF204FA83900720B0D /* Podfile */,
+				C9F47653EE09865C995C976A /* Products */,
+				C9F4778EC6BEF5CA7E76784E /* EnricTest */,
+				C9F4760293B61628C7A5297D /* EnricTestTests */,
+				5E5CF423A0E39E945D94CAB4 /* Pods */,
+				E933B387794AE294299D2D72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F4760293B61628C7A5297D /* EnricTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E40EE7204FA0CF00720B0D /* SupportingFiles */,
+				79E40EF720506A3800720B0D /* ClearScoreService */,
+				79E40EF620506A2600720B0D /* Common */,
+				79E40EFA20506EF400720B0D /* Helpers */,
+				C9F477C04051AF499A265226 /* AppDelegateTests.swift */,
+				7959C0B32050778800B1DD6D /* DashboardModule */,
+			);
+			path = EnricTestTests;
+			sourceTree = "<group>";
+		};
+		C9F47653EE09865C995C976A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4786B0B57643CA8515A3A /* EnricTest.app */,
+				C9F47372A49CF22094C0030D /* EnricTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F4778EC6BEF5CA7E76784E /* EnricTest */ = {
+			isa = PBXGroup;
+			children = (
+				C9F47BCD70ADB048CE5B4EC9 /* AppDelegate.swift */,
+				C9F47E7CBD70AE57D57A2CD8 /* main.swift */,
+				79E40EE8204FA0E000720B0D /* SplashScreen */,
+				79E40EE9204FA0F700720B0D /* DashboardModule */,
+				79E40EE6204FA08800720B0D /* SupportingFiles */,
+				79E40EEB204FA49700720B0D /* ClearScoreService */,
+				79E40EEA204FA1A700720B0D /* Common */,
+			);
+			path = EnricTest;
+			sourceTree = "<group>";
+		};
+		E933B387794AE294299D2D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0CD6229E5FDEF506319E7C /* Pods_EnricTest.framework */,
+				FA12B7D3701BEB50864D4042 /* Pods_EnricTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F470BE07907EC5E12CD301 /* EnricTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F4762713360EF94CEFB64C /* Build configuration list for PBXNativeTarget "EnricTest" */;
+			buildPhases = (
+				07F6BF2D3FC7AD45C1A50862 /* [CP] Check Pods Manifest.lock */,
+				C9F47D24EB741C8E01CBA260 /* Sources */,
+				C9F474EB22F4D2AE1F9C42B2 /* Frameworks */,
+				C9F47FD810993014A9C657F0 /* Resources */,
+				E44C1FA07CF69A41442EA9A6 /* [CP] Embed Pods Frameworks */,
+				E86A4A83139565D2960D5A47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnricTest;
+			productName = EnricTest;
+			productReference = C9F4786B0B57643CA8515A3A /* EnricTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9F4770B1194D1914389BD1D /* EnricTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F47AF1552BE6891A6614DA /* Build configuration list for PBXNativeTarget "EnricTestTests" */;
+			buildPhases = (
+				981F89CE4910C1FAD18B7648 /* [CP] Check Pods Manifest.lock */,
+				C9F477A6C4CD292BBF2812DC /* Sources */,
+				C9F4767271617A2CF7CE91B6 /* Frameworks */,
+				C9F47EF8075138DB85152E11 /* Resources */,
+				E350376533D2F623EB0EA155 /* [CP] Embed Pods Frameworks */,
+				66613449E315010543080DD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F4779F168B84EFFA6DF476 /* PBXTargetDependency */,
+			);
+			name = EnricTestTests;
+			productName = EnricTestTests;
+			productReference = C9F47372A49CF22094C0030D /* EnricTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F470D73545ADE100E97957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ERT Limited";
+			};
+			buildConfigurationList = C9F47767DA84ADBE2B9BDC40 /* Build configuration list for PBXProject "EnricTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9F4743833DA1E8995A31B19;
+			productRefGroup = C9F47653EE09865C995C976A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F470BE07907EC5E12CD301 /* EnricTest */,
+				C9F4770B1194D1914389BD1D /* EnricTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F47EF8075138DB85152E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F47FD810993014A9C657F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F47293A378D4DB030427CB /* Assets.xcassets in Resources */,
+				C9F47E01D16C13D27B5BAB51 /* LaunchScreen.storyboard in Resources */,
+				79E40EF0204FA83900720B0D /* Podfile in Resources */,
+				C9F47CEE752239D04BABED7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F6BF2D3FC7AD45C1A50862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnricTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66613449E315010543080DD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnricTestTests/Pods-EnricTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981F89CE4910C1FAD18B7648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnricTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E350376533D2F623EB0EA155 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnricTestTests/Pods-EnricTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44C1FA07CF69A41442EA9A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EnricTest/Pods-EnricTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnricTest/Pods-EnricTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86A4A83139565D2960D5A47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnricTest/Pods-EnricTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F477A6C4CD292BBF2812DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E40EF2204FB8CC00720B0D /* DefaultClearScoreServiceTests.swift in Sources */,
+				79E40EF920506EEE00720B0D /* TestAppDelegate.swift in Sources */,
+				C9F47E3C25756023E7AE17D8 /* StringsTests.swift in Sources */,
+				C9F472129BA14DED7127D108 /* DefaultAppConfigurationTests.swift in Sources */,
+				C9F4778E58F2E3BE94F48303 /* ReportInfoModelBuilder.swift in Sources */,
+				C9F4763D5155830FC869A7F2 /* ReportInfoModelTests.swift in Sources */,
+				C9F474AEBD59B24A1D20A3ED /* TestAppObserver.swift in Sources */,
+				C9F47A3D642C62B26D8F37FA /* TestAppConfiguration.swift in Sources */,
+				C9F476E18FE481AF3743338C /* MockClearScoreService.swift in Sources */,
+				C9F47A796BF97D4050B254CE /* AppDelegateTests.swift in Sources */,
+				C9F473A705F76476096A4DA6 /* MockAppConfiguration.swift in Sources */,
+				C9F471812094EE4ED8A2A33B /* MockDashboardWireframeFactory.swift in Sources */,
+				C9F47DF31A862FBE0A221796 /* MockDashboardWireframe.swift in Sources */,
+				C9F475CCE926D0C21E40928D /* MockDashboardView.swift in Sources */,
+				C9F47A939C14A8EC662311EA /* MockDashboardPresenter.swift in Sources */,
+				C9F474A158EDD50D56990B5B /* MockReportInfoModelToDashboardViewModelAdapter.swift in Sources */,
+				C9F4784C40FBDF390F28D8F7 /* DashboardBuilders.swift in Sources */,
+				C9F472368C6C3A80B646CDF6 /* DashboardViewModelTests.swift in Sources */,
+				C9F4724BAA49B053B9A42A6D /* DefaultReportInfoModelToDashboardViewModelAdapterTests.swift in Sources */,
+				C9F47AD700C17A4B2E41156C /* DefaultDashboardWireframeFactoryTests.swift in Sources */,
+				C9F47BDCC6A3787AA7174849 /* DefaultDashboardPresenterTests.swift in Sources */,
+				C9F472F805BB2FE540FE5CB9 /* DefaultDashboardWireframeTests.swift in Sources */,
+				C9F47B0C37E98A049A5F118E /* DashboardViewControllerTests.swift in Sources */,
+				C9F47B989918E6482ED7984E /* MockClearScoreView.swift in Sources */,
+				C9F47BADD6B5F79BF27CFE8B /* ClearScoreViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F47D24EB741C8E01CBA260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F4730050AB88C4A1612F07 /* AppDelegate.swift in Sources */,
+				C9F479D51D4B25E40582BC91 /* DashboardViewController.swift in Sources */,
+				C9F477373ADF2FF920AE6B67 /* Result.swift in Sources */,
+				C9F4766F99ACE368A7D1C75F /* AppConfiguration.swift in Sources */,
+				C9F47AF248EA5DBEAB48AA14 /* ServiceDirectory.swift in Sources */,
+				C9F476E5E4108CA48FE10D3A /* ClearScoreService.swift in Sources */,
+				C9F47C3BD7895B7DDF910469 /* ReportInfoModel.swift in Sources */,
+				C9F47160021AC36ABD978E57 /* DefaultAppConfiguration.swift in Sources */,
+				C9F47028B5342E2A6F95CBE0 /* DefaultClearScoreService.swift in Sources */,
+				79E40EF4204FC85100720B0D /* ClearScoreView.swift in Sources */,
+				C9F47D51264BAAD5DC1DD7AE /* DashboardWireframe.swift in Sources */,
+				C9F47220DCA0EE7050770150 /* DashboardWireframeFactory.swift in Sources */,
+				C9F47618A51BB5A89D17FF2A /* DefaultDashboardWireframeFactory.swift in Sources */,
+				C9F47C2CAB3C5731ABA21241 /* DefaultDashboardWireframe.swift in Sources */,
+				C9F4782DA560F56AB8AE0FDB /* DashboardPresenter.swift in Sources */,
+				C9F475C0B05046C54303E4C3 /* DashboardView.swift in Sources */,
+				C9F47A079F34CF4DC073EFCD /* DashboardViewModel.swift in Sources */,
+				C9F47DD3A1C1A2E1DA391C34 /* ReportInfoModelToDashboardViewModelAdapter.swift in Sources */,
+				C9F47F908F3044A900C63BF3 /* DefaultReportInfoModelToDashboardViewModelAdapter.swift in Sources */,
+				C9F476A28E6A3F0F583A0D16 /* Strings.swift in Sources */,
+				C9F47CF88B443634B645D13D /* main.swift in Sources */,
+				C9F477FF6787D57039EF0ABF /* DefaultDashboardPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9F4779F168B84EFFA6DF476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F470BE07907EC5E12CD301 /* EnricTest */;
+			targetProxy = C9F4773BCBD19F88390A533B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9F47BA6E24394C6BB536CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F47139AB8EFA5F8C4BCC0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9F47C1DA458780A7D85CF79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F47716F729C74C142C866F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F4711A6D7353D38DEB57CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB41E78F03A031434251FC1 /* Pods-EnricTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnricTest.app/EnricTest";
+				INFOPLIST_FILE = EnricTestTests/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertltd.EnricTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C9F4761D5E63A612086FCE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9F478F27B8525DB0D08EA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9F47AEC217086B111F2928A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D294CCE7FEF69C3D94D3E7AD /* Pods-EnricTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnricTest.app/EnricTest";
+				INFOPLIST_FILE = EnricTestTests/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertltd.EnricTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		C9F47D013014C5885005831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428C0FDA19BCB9C7ED82AE01 /* Pods-EnricTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/EnricTest/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertltd.EnricTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9F47FFC55A0DBE7C377AE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA4B4E627ED09C8324AE352 /* Pods-EnricTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/EnricTest/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertltd.EnricTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F4762713360EF94CEFB64C /* Build configuration list for PBXNativeTarget "EnricTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F47D013014C5885005831D /* Debug */,
+				C9F47FFC55A0DBE7C377AE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F47767DA84ADBE2B9BDC40 /* Build configuration list for PBXProject "EnricTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F478F27B8525DB0D08EA5C /* Debug */,
+				C9F4761D5E63A612086FCE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F47AF1552BE6891A6614DA /* Build configuration list for PBXNativeTarget "EnricTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F4711A6D7353D38DEB57CF /* Debug */,
+				C9F47AEC217086B111F2928A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F470D73545ADE100E97957 /* Project object */;
+}
